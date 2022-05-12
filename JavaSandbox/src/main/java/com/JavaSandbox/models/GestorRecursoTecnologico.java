@@ -1,6 +1,5 @@
 // --------------------------------------------------------------------------------------------- Version 1
-package com.RecursosTecnologicos.models;
-
+package com.JavaSandbox.models;
 import java.util.ArrayList;
 
 public class GestorRecursoTecnologico {

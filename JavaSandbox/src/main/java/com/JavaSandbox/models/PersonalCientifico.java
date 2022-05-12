@@ -1,4 +1,4 @@
-package com.RecursosTecnologicos.models;
+package com.JavaSandbox.models;
 import lombok.Data;
 
 @Data
@@ -7,7 +7,7 @@ public class PersonalCientifico {
     private Usuario usuario;
 
     public boolean esDeUsuario(Usuario usuario){
-        if(this.usuario.getNickname() == usuario.getNickname()){
+        if(this.usuario.esUsuario(usuario)) {
             return true;
         }
         return false;

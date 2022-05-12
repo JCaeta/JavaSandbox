@@ -1,6 +1,6 @@
-package com.RecursosTecnologicos;
-import com.RecursosTecnologicos.models.GestorCU;
-import com.RecursosTecnologicos.models.RecursoTecnologico;
+package com.JavaSandbox;
+import com.JavaSandbox.models.GestorCU;
+import com.JavaSandbox.models.RecursoTecnologico;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;

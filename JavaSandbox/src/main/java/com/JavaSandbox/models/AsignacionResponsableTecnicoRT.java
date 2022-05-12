@@ -1,5 +1,5 @@
 //----------------------------------------------------------------------------------- Version 1
-package com.RecursosTecnologicos.models;
+package com.JavaSandbox.models;
 import lombok.Data;
 import java.util.ArrayList;
 

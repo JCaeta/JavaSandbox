@@ -1,5 +1,5 @@
-package com.RecursosTecnologicos.models;
-import com.RecursosTecnologicos.ControladorPantalla;
+package com.JavaSandbox.models;
+import com.JavaSandbox.ControladorPantalla;
 import java.util.ArrayList;
 
 public class GestorCU {
