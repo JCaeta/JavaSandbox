@@ -5,7 +5,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import java.util.ArrayList;
 @Controller
-public class ControladorPantalla {
+public class Pantalla {
     private GestorCU gestorCU = new GestorCU();
     private Model model;
 
