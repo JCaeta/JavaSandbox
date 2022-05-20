@@ -6,14 +6,14 @@ import java.util.ArrayList;
 
 @Data
 public class RecursoTecnologico {
-    ArrayList<Turno> turnos;
+    private ArrayList<Turno> turnos;
 
     public ArrayList<Turno> getTurnosEnPlazo() {
         ArrayList<Turno> turnosEnPlazo = new ArrayList<>();
-        for (Turno turno : turnos) {
-            if ()
-            }
-        }
+        // for (Turno turno : turnos) {
+        //     if ()
+        //     }
+        // }
 
         return turnosEnPlazo;
     }
