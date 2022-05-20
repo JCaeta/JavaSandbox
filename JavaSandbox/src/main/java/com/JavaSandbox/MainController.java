@@ -10,6 +10,7 @@ import org.springframework.stereotype.Controller;
 @Controller
 public class MainController
 {
+
     public MainController(){
         // algorithm0();
         algorithm1();
@@ -69,5 +70,13 @@ public class MainController
         System.out.println("dateTime0: " + dateTime0);
         System.out.println("dateTime1: " + dateTime1);
         System.out.println("dateTime2: " + dateTime2);
+
+        // Compare date0 with dateTime2
+        LocalDate dateTime2Comparing = LocalDate.of(dateTime2.getYear(), dateTime2.getMonth(), dateTime2.getDayOfMonth());
+        boolean isAfter = date0.isAfter(dateTime2Comparing);
+        System.out.println("isAfter: " + isAfter);
+
+
+        // System.out.println("date0.equals(dateTime2Comparing): " + dateTime2Comparing.isAfter(date0));
     }
 }
