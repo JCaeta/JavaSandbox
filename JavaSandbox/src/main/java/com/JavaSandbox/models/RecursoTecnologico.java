@@ -6,21 +6,17 @@ import java.util.ArrayList;
 
 @Data
 public class RecursoTecnologico {
-    private int numeroRT;
-    private ArrayList<CambioEstadoRT> cambiosEstados = new ArrayList<>();
+    ArrayList<Turno> turnos;
 
-    public String getDatos() {
-        return "Recurso tecnológico número " + numeroRT;
-    }
-
-    public boolean estaDisponible()
-    {
-        for(CambioEstadoRT cambioEstadoRT : cambiosEstados) {
-            if(cambioEstadoRT.esActual()) {
-                return cambioEstadoRT.esDisponible();
+    public ArrayList<Turno> getTurnosEnPlazo() {
+        ArrayList<Turno> turnosEnPlazo = new ArrayList<>();
+        for (Turno turno : turnos) {
+            if ()
             }
         }
-        return false;
+
+        return turnosEnPlazo;
     }
+
 }
 
