@@ -7,15 +7,15 @@ public class AsignacionResponsableTecnicoRT {
     private ArrayList<RecursoTecnologico> recursosTecnologicos = new ArrayList<>();
     private PersonalCientifico personalCientifico;
 
-    public boolean esDeUsuario(String nicknameUsuario){
-        return personalCientifico.esDeUsuario(nicknameUsuario);
-    }
+    // public boolean esDeUsuario(String nicknameUsuario){
+    //     return personalCientifico.esDeUsuario(nicknameUsuario);
+    // }
 
     public ArrayList<String> getDatosRT(){
         ArrayList<String> datosRT = new ArrayList<>();
-        for(RecursoTecnologico recurso : recursosTecnologicos){
-            datosRT.add(recurso.getDatos());
-        }
+        // for(RecursoTecnologico recurso : recursosTecnologicos){
+        //     datosRT.add(recurso.getDatos());
+        // }
         return datosRT;
     }
 }

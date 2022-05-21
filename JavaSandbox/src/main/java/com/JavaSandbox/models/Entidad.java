@@ -1,4 +1,5 @@
-package com.RecursosTecnologicos.models;
+// package com.RecursosTecnologicos.models;
+package com.JavaSandbox.models;
 
 import lombok.Data;
 

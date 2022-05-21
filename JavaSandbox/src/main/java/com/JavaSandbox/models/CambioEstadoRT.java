@@ -16,7 +16,7 @@ public class CambioEstadoRT {
 
     public boolean esDisponible()
     {
-        estado.esDisponible();
+        // estado.esDisponible();
         return false;
     }
 }
