@@ -7,9 +7,14 @@ public class Estado
     private String nombre;
     private String ambito;
 
-    public boolean esDisponible()
+    public boolean esReservado()
     {
-        return (nombre == "Disponible");
+        return (nombre == "Reservado");
+    }
+
+    public boolean esConfirmado()
+    {
+        return (nombre == "Confirmado");
     }
 }
 

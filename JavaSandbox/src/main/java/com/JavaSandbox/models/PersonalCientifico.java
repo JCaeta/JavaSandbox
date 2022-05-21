@@ -4,13 +4,18 @@ import lombok.Data;
 @Data
 public class PersonalCientifico {
     private String nombre;
-    private Usuario usuario;
+    private String apellido;
 
-    public boolean esDeUsuario(String usuarioNickname){
-        if(usuario.esUsuario(usuarioNickname)){
-            return true;
-        }
-        return false;
+    public String[] mostrarPersonalCientifico()
+    {
+        String[] datosPersonalCientifico = new String[2];
+
+        datosPersonalCientifico[0] = nombre;
+        datosPersonalCientifico[1] = apellido;
+        
+        return datosPersonalCientifico;
     }
 }
+
+
 
